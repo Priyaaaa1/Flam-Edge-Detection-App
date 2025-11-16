@@ -126,8 +126,7 @@ Displays processed images in browser.
 - `feat: complete Android + C++ + web setup`
 - `docs: add full README`
 ## 👩‍💻 Developer
-**Priya – Flam R&D Intern Candidate**  
-GitHub: https://github.com/Priyaaaa1  
+**Priya** – https://github.com/Priyaaaa1  
 Demonstrates:  
 - Android NDK + JNI  
 - OpenCV (C++)  
