@@ -1,0 +1,5 @@
+﻿cmake_minimum_required(VERSION 3.18.1)
+project("edge-detection")
+add_library(edge-detection SHARED edge_detector.cpp)
+find_library(log-lib log)
+target_link_libraries(edge-detection ${log-lib})

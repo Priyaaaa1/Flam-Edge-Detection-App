@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Edge Detection Viewer</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .frame { border: 2px solid #333; margin: 10px 0; }
+        .stats { background: #f0f0f0; padding: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Edge Detection Results Viewer</h1>
+        <div class="stats">
+            <div>FPS: <span id="fps">--</span></div>
+            <div>Resolution: <span id="resolution">--</span></div>
+            <div>Mode: <span id="mode">--</span></div>
+        </div>
+        <img id="processedFrame" class="frame" src="#" alt="Processed Frame" width="400"/>
+        <button onclick="loadSample()">Load Sample Frame</button>
+    </div>
+    <script>
+        function loadSample() {
+            document.getElementById('fps').textContent = '15';
+            document.getElementById('resolution').textContent = '640x480';
+            document.getElementById('mode').textContent = 'Canny Edge Detection';
+            document.getElementById('processedFrame').alt = 'Sample edge detection output';
+        }
+    </script>
+</body>
+</html>

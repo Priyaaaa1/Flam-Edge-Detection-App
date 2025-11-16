@@ -1,0 +1,11 @@
+﻿{
+    "name": "edge-detection-viewer",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
