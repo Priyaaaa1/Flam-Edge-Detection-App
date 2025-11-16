@@ -1,11 +1,25 @@
 ﻿{
-    "name": "edge-detection-viewer",
-    "version": "1.0.0",
-    "scripts": {
-        "build": "tsc",
-        "dev": "tsc --watch"
-    },
-    "devDependencies": {
-        "typescript": "^5.0.0"
-    }
+  "name": "edge-detection-analytics",
+  "version": "1.0.0",
+  "description": "Real-time edge detection analytics dashboard",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "live-server": "^1.2.2",
+    "eslint": "^8.0.0"
+  },
+  "keywords": [
+    "edge-detection",
+    "computer-vision",
+    "analytics",
+    "typescript",
+    "dashboard"
+  ],
+  "author": "Priya",
+  "license": "MIT"
 }
